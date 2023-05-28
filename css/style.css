@@ -1,0 +1,23 @@
+.container {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background: grey;
+    padding-top: 100px;
+}
+
+.slider-window {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: .3s;
+}
+
